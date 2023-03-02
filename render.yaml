@@ -1,0 +1,29 @@
+services:
+  - type: web
+    plan: free
+    name: Channel-Mdisk-Converter
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    repo: https://github.com/Dkmovie/Channel-Mdisk-Converter.git      
+    branch: main
+    envVars:
+      - key: BOT_TOKEN 
+        "value": "5908542250:AAF59XCK3e--hN1_2JpozsQt6RXNgYLFXyg"
+      - key: API_ID 
+        "value": "14438754"
+      - key: API_HASH 
+        "value": "baeb7d71bd10d8b5d8a97fce7ad9707d"
+      - key: PYTHON_VERSION 
+        "value": "3.8.1"
+      - key: LOG_GROUP 
+        "value": "-1001672254843"
+      - key: CHAT 
+        "value": "-1001672254843"
+      - key: ADMINS 
+        "value": "5808599296"
+      - key: DATABASE_URL
+        "value": "mongodb+srv://cccc:cccc@cluster0.7xrqyz3.mongodb.net/?retryWrites=true&w=majority"  
+      - key: SESSION_STRING
+        "value": "BQC3JP1UgFr5ZSInJsq35Iy2Px35vpditPdNMc3GON5aRkb-roKAv3PRvAqrxHWmv6ICjBg0U_-QqrrrEHlCFT_o94IYTOvKLj_zR1rA61qz3SJc8X0Jv1zElrYFfkiLpBN5cbU9tBMB1hukIVXTH5Im4du2cOb41uGN2_sUC8eIMrTqTJBhK6PsyxTSMYUNBr9RSopRHO1FXp_1lyMw3M5NAo19zH2cmRtRgHkrg3KH2sSNmRdlkeIdyv6HuR1LYDmZPD2XgJl5LjUkTjznwZ5BC_SUIHj0xUcpQQ1OU9YoHHR4vLi31uaz8d-wA6pSpvny7-8XJqMrHHk-V-WhMQE5AAAAAV1gMWQA"
+    autoDeploy: false 
