@@ -51,6 +51,7 @@ Telegram bot to stream videos in telegram voicechat for both groups and channels
 - [FFMpeg](https://www.ffmpeg.org/).
 
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Dkmovie/VCPlayerBot)
 
 ## Deploy to Heroku
 
